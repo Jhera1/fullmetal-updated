@@ -4,7 +4,7 @@ import "./character-row.css"
 export const CharacterRow = ({ char, index }) => (
     <tr className={index % 2 === 0 ? 'light' : 'dark'}>
       <td>{char.name}</td>
-      <td>{char.skill}</td>
+      <td>{char.skillset.join(', ')}</td>
       <td>{char.votes}</td>
     </tr>
   );
