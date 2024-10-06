@@ -1,7 +1,7 @@
-import "./character-ratings.css"
+import "../CSS/character-ratings.css"
 
 // Class Component using props
-export class CharacterRatings extends Component {
+export class CharacterRatings  {
     render() {
       const { characters } = this.props;
       return (

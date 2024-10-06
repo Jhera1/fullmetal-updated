@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
 import { Header } from "../header.jsx";
 import { characterData } from '../data.jsx';
 import { CharacterRow } from '../character-row.jsx';
 import { CharacterRatings } from '../character-ratings.jsx';
 import { CharacterCard } from '../character-cards.jsx';
-import './reset.css';
-import './style.css';
+import '../../CSS/reset.css';
+import '../../CSS/style.css';
 
 links = ["About Us", "Info", "Support Us"]
 
 // App component data passed as props
 const App = () => {
-  const { characters, cards, links } = characterData;
+  const { characters, cards, } = characterData;
   
   return (
     <>

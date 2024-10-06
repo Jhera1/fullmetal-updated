@@ -1,4 +1,3 @@
-import "./character-row.css"
 
 // Functional Component for Table Row with conditional class rendering
 export const CharacterRow = ({ char, index }) => (

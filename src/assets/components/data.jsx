@@ -1,7 +1,8 @@
 // data for App component
 
 
-export const characterData = [
+export const characterData = { 
+  characters: [
   {
     name: "Alex Louis Armstrong",
     nickName: "Major Armstrong",
@@ -90,7 +91,9 @@ export const characterData = [
       "Winrey is Edward and Al's best friend, and it's a good thing because her specialty is making the best automail out there",
     imageUrl:
       "https://s3.amazonaws.com/comicgeeks/characters/avatars/36066.jpg?t=1668454278",
-  },]
+  },
+ ],
+};
     
   
   
